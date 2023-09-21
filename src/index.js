@@ -24,7 +24,7 @@ import './global.css'
 import Class from "./Class";
 import LifeinFun from "./LifeinFun";
 import Axios from "./Axios";
-import ToDo from "./ToDoTask/ToDo";
+// import ToDo from "./ToDoTask/ToDo";
 import Parent2 from "./AdvanceHooks/Parent2";
 // import SecondForm from "./Forms/SecondForm";
 createRoot(document.getElementById("root")).render(<Axios/>);
