@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.mainContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    line-height: 50px;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   
+}
+
+button{
+    background-color: aqua;
+    height: 30px;
+    width: 50px;
+    border: 2px solid black;
+}
+
+.subContainer{
+    height: auto;
+    border: 5px solid black;
+   border-radius: 10px;
+   padding: 20px;
+   margin: auto;
+   color: black;
+   width: 400px;
+    background-image: url(../m1.jpg);
+    background-size: cover;
+
+}
+
+.close{
+    background-color: rgb(93, 169, 240);
+    
+}
+
+input{
+    height: 30px;
+    margin-right: 10px;
+    padding-right: 50px;
+    border: 2px solid;
+    padding-left: 10px;
+}
+
+span{
+    margin-right: 10px;
+    color: azure;
+}
